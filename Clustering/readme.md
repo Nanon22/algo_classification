@@ -3,9 +3,9 @@
 Cet exercice n'a pas été entièrement traité.
 Il va jusqu'à la détermination des similarités entre les articles mais ne gère pas le "regroupement". Car n'ayant pas suffisamment bien compris ce principe.
 
-à la racine du dossier /Clustering en executant la commande : python clustering.py. On obtient un dictionnaire sous la forme :
+à la racine du dossier `/Clustering` en executant la commande : `python clustering.py`. On obtient un dictionnaire sous la forme :
 
-{
+```{
   "article1" : {
     "article2" : dégré de similarité calculé avec Pearson
     "article3" : dégré de similarité calculé avec Pearson
@@ -37,5 +37,6 @@ Il va jusqu'à la détermination des similarités entre les articles mais ne gè
     "article4" : dégré de similarité calculé avec Pearson
   },
 }
+```
 
-d'autres fonctions ayant servit à atteindre ce résultat on été commmenté dans le fichier ckustering.py pour faciliter leur compréhesion
+d'autres fonctions ayant servit à atteindre ce résultat ont été commmenté dans le fichier `clustering.py` pour faciliter leur compréhesion
